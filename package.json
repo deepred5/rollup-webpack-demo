@@ -1,0 +1,26 @@
+{
+  "name": "monitor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-latest": "^6.24.1",
+    "rollup": "^0.60.1",
+    "rollup-plugin-babel": "^3.0.4",
+    "rollup-plugin-terser": "^1.0.1",
+    "rollup-plugin-uglify": "^4.0.0",
+    "webpack": "^4.11.1",
+    "webpack-cli": "^3.0.3"
+  },
+  "scripts": {
+    "webpack-dev": "webpack -w",
+    "webpack-build": "webpack -p",
+    "rollup-dev": "rollup -c -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
